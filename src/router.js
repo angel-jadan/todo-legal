@@ -21,6 +21,11 @@ export default new Router({
       component: Login,
     },
     {
+      path: "/todo-legal",
+      name: "login",
+      component: Login,
+    },
+    {
       path: "*",
       name: "error",
       component: Error,
